@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="fullName" value="Excel Projet"/>
+		<parameter name="companyName" value="Techfios"/>
+		<parameter name="email" value="msexcell@gmail.com"/>
+		<parameter name="phone" value="a231546"/>
+		<parameter name="address" value="Techfios Building"/>
+		<parameter name="city" value="Carrolton"/>
+		<parameter name="state" value="TX"/>
+		<parameter name="country" value="United Kingdom"/>
+		<parameter name="zip" value="a75009"/>
+
+		<classes>
+			<!-- <class name="test.LoginTest"/> -->
+			
+			<class name="test.AddCustomerTest"/>
+			
+
+		</classes>
+
+	</test>
+
+</suite>
